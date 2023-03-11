@@ -1,0 +1,63 @@
+#dokkanimage{
+    width: 80px;
+
+    }
+
+
+:root{
+        --primary-color: #edf2fc;
+        --secondary-color: #212121; 
+     }
+.dark-theme{
+         --primary-color: #000106;
+         --secondary-color: #fff; 
+     }
+
+#icondark{
+        width: 30px;
+        cursor: pointer;
+    }
+
+body.dark {
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
+    }
+
+div.title-block {
+        text-align: center;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        background-color: var(--secondary-color);
+    }
+    div.photo-block {
+        text-align: center;
+        border: 1px solid var(--secondary-color);
+        border-radius: 5%;
+    }
+    div.photo-title {
+        font-size: 140%;
+        font-family: Arial;
+        text-decoration: underline;
+    }
+
+
+  
+    
+
+
+h6 {
+    text-align: left;
+    margin-left: 2%;
+      }
+
+#typeicon{
+    width: 70px;
+}
+
+#artwork{
+    width: 95%;
+}
+
+#rdate{
+    margin: 1%;
+}
